@@ -1,6 +1,7 @@
 Source: qjson
 Priority: extra
 Maintainer: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+Uploaders: Sune Vuorela <debian@pusling.com>
 Build-Depends: debhelper (>= 7), cmake, libqt4-dev
 Standards-Version: 3.8.3
 Section: libs
