@@ -1,0 +1,9 @@
+qjson (0.6.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #549160)
+
+  +++ Changes by Sune Vuorela:
+
+  * Add dbg package
+
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Sun, 27 Sep 2009 17:44:37 -0300
