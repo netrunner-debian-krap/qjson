@@ -1,4 +1,4 @@
-qjson (0.6.3+svn1050695-1) unstable; urgency=low
+qjson (0.6.3+svn1050695-1) UNRELEASED; urgency=low
 
   * New upstream release.
   * Improved parser performances.
