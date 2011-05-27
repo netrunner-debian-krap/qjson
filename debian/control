@@ -37,6 +37,7 @@ Description: qt-based library that maps JSON data to QVariant objects - developm
 Package: libqjson0-dbg
 Section: debug
 Architecture: any
+Recommends: libqt4-dbg
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqjson0 (= ${binary:Version})
 Description: qt-based library that maps JSON data to QVariant objects, debug info
  debug info for qt based library that maps JSON adta to QVariant objects.

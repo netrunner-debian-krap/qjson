@@ -5,6 +5,7 @@ qjson (0.7.1-2) UNRELEASED; urgency=low
   * Added a symbol file. 
   * Removed duplicate "Section" field in libqjson0. 
   * Bumped standards version to 3.9.1, no changes needed. 
+  * Make the debugging package recommend libqt4-dbg.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Wed, 27 Oct 2010 15:17:47 -0300
 
