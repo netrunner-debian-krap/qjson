@@ -7,4 +7,4 @@
 export CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 
 %:
-	dh --dbg-package=libqjson0-dbg $@
+	dh --dbg-package=libqjson-dbg $@
