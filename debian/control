@@ -39,7 +39,7 @@ Package: libqjson-dbg
 Section: debug
 Architecture: any
 Recommends: libqt4-dbg
-Depends: ${shlibsi:Depends}, ${misc:Depends}, libqjson0 (= ${binary:Version})
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqjson0 (= ${binary:Version})
 Replaces: libqjson0-dbg (<< 0.7.1-1)
 Breaks: libqjson0-dbg (<< 0.7.1-1)
 Description: qt-based library that maps JSON data to QVariant objects, debug info
