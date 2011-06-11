@@ -44,21 +44,24 @@ libqjson.so.0 libqjson0 #MINVER#
  _ZNK5QJson18SerializerRunnable10metaObjectEv@Base 0.7.1
  _ZNK5QJson6Parser11errorStringEv@Base 0.7.1
  _ZNK5QJson6Parser9errorLineEv@Base 0.7.1
- (optional=templinst)_ZNKSt15_Deque_iteratorI8QVariantRS0_PS0_EplEl@Base 0.7.1
- (optional=templinst)_ZNKSt15_Deque_iteratorIN2yy8locationERS1_PS1_EplEl@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseI8QVariantSaIS0_EE17_M_initialize_mapEm@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseI8QVariantSaIS0_EED1Ev@Base 0.7.1
  (optional=templinst)_ZNSt11_Deque_baseI8QVariantSaIS0_EED2Ev@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseIN2yy8locationESaIS1_EE17_M_initialize_mapEm@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseIN2yy8locationESaIS1_EED1Ev@Base 0.7.1
  (optional=templinst)_ZNSt11_Deque_baseIN2yy8locationESaIS1_EED2Ev@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseIiSaIiEE17_M_initialize_mapEm@Base 0.7.1
+ (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED1Ev@Base 0.7.1
  (optional=templinst)_ZNSt11_Deque_baseIiSaIiEED2Ev@Base 0.7.1
- (optional=templinst)_ZNSt15_Deque_iteratorIN2yy8locationERS1_PS1_EpLEl@Base 0.7.1
- (optional=templinst)_ZNSt15_Deque_iteratorIiRiPiEpLEl@Base 0.7.1
+ (optional=templinst)_ZNSt15_Deque_iteratorI8QVariantRS0_PS0_EppEv@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE13_M_insert_auxISt15_Deque_iteratorIS0_RKS0_PS5_EEEvS4_IS0_RS0_PS0_ET_SC_m@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE17_M_push_front_auxERKS0_@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE17_M_reallocate_mapEmb@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE18_M_fill_initializeERKS0_@Base 0.7.1
+ (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE19_M_destroy_data_auxESt15_Deque_iteratorIS0_RS0_PS0_ES6_@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE19_M_range_insert_auxISt15_Deque_iteratorIS0_RKS0_PS5_EEEvS4_IS0_RS0_PS0_ET_SC_St20forward_iterator_tag@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE23_M_new_elements_at_backEm@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE24_M_new_elements_at_frontEm@Base 0.7.1
- (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EE28_M_reserve_elements_at_frontEm@Base 0.7.1
  (optional=templinst)_ZNSt5dequeI8QVariantSaIS0_EEaSERKS2_@Base 0.7.1
  (optional=templinst)_ZNSt5dequeIN2yy8locationESaIS1_EE13_M_insert_auxISt15_Deque_iteratorIS1_RKS1_PS6_EEEvS5_IS1_RS1_PS1_ET_SD_m@Base 0.7.1
  (optional=templinst)_ZNSt5dequeIN2yy8locationESaIS1_EE17_M_reallocate_mapEmb@Base 0.7.1
@@ -74,10 +77,17 @@ libqjson.so.0 libqjson0 #MINVER#
  (optional=templinst)_ZNSt5dequeIiSaIiEE24_M_new_elements_at_frontEm@Base 0.7.1
  (optional=templinst)_ZNSt5dequeIiSaIiEE28_M_reserve_elements_at_frontEm@Base 0.7.1
  (optional=templinst)_ZNSt5dequeIiSaIiEEaSERKS1_@Base 0.7.1
+ (optional=templinst)_ZSt13copy_backwardI8QVariantESt15_Deque_iteratorIT_RS2_PS2_ES1_IS2_RKS2_PS6_ES9_S5_@Base 0.7.1
+ (optional=templinst)_ZSt13copy_backwardIN2yy8locationEESt15_Deque_iteratorIT_RS3_PS3_ES2_IS3_RKS3_PS7_ESA_S6_@Base 0.7.1
+ (optional=templinst)_ZSt13copy_backwardIiESt15_Deque_iteratorIT_RS1_PS1_ES0_IS1_RKS1_PS5_ES8_S4_@Base 0.7.1
  (optional=templinst)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorI8QVariantRKS1_PS2_ES0_IS1_RS1_PS1_ES1_ET0_T_SA_S9_RSaIT1_E@Base 0.7.1
+ (optional=templinst)_ZSt22__uninitialized_copy_aISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEiET0_T_S9_S8_RSaIT1_E@Base 0.7.1
  (optional=templinst)_ZSt22__uninitialized_move_aISt15_Deque_iteratorI8QVariantRS1_PS1_ES4_SaIS1_EET0_T_S7_S6_RT1_@Base 0.7.1
- (optional=templinst)_ZSt4copyISt15_Deque_iteratorIiRKiPS1_ES0_IiRiPiEET0_T_S9_S8_@Base 0.7.1
- (optional=templinst)_ZSt8_DestroyISt15_Deque_iteratorI8QVariantRS1_PS1_EEvT_S5_@Base 0.7.1
+ (optional=templinst)_ZSt22__uninitialized_move_aISt15_Deque_iteratorIN2yy8locationERS2_PS2_ES5_SaIS2_EET0_T_S8_S7_RT1_@Base 0.7.1
+ (optional=templinst)_ZSt22__uninitialized_move_aISt15_Deque_iteratorIiRiPiES3_SaIiEET0_T_S6_S5_RT1_@Base 0.7.1
+ (optional=templinst)_ZSt4copyI8QVariantESt15_Deque_iteratorIT_RS2_PS2_ES1_IS2_RKS2_PS6_ES9_S5_@Base 0.7.1
+ (optional=templinst)_ZSt4copyIN2yy8locationEESt15_Deque_iteratorIT_RS3_PS3_ES2_IS3_RKS3_PS7_ESA_S6_@Base 0.7.1
+ (optional=templinst)_ZSt4copyIiESt15_Deque_iteratorIT_RS1_PS1_ES0_IS1_RKS1_PS5_ES8_S4_@Base 0.7.1
  _ZTIN5QJson14ParserRunnableE@Base 0.7.1
  _ZTIN5QJson18SerializerRunnableE@Base 0.7.1
  _ZTSN5QJson14ParserRunnableE@Base 0.7.1
