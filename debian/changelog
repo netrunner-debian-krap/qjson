@@ -16,6 +16,7 @@ qjson (0.7.1-2) UNRELEASED; urgency=low
       dummy package.
   * Be more verbose on install files.
   * Build-Depend on pkg-kde-tools in order to use pkgkde-symbolshelper.
+  * Enable parallel build.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Wed, 27 Oct 2010 15:17:47 -0300
 
