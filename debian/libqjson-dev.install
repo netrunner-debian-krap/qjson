@@ -1,4 +1,4 @@
 usr/include/*
 usr/lib/libqjson.so
 usr/lib/pkgconfig/*
-usr/share/apps/cmake/modules/FindQJSON.cmake
+usr/share/cmake-*/Modules/FindQJSON.cmake
