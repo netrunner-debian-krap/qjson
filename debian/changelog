@@ -4,7 +4,7 @@ qjson (0.7.1-2) unstable; urgency=low
   * Added visibility flags to generate less noisier symbol files.
   * Added a symbol file.
   * Removed duplicate "Section" field in libqjson0.
-  * Bumped standards version to 3.9.1, no changes needed.
+  * Bumped standards version to 3.9.2, no changes needed.
   * Make the debugging package recommend libqt4-dbg.
   * Enable DM-Upload-Allowed.
   * Rename libqjson0-dbg to libqjson-dbg, as it's easier to maintain.
