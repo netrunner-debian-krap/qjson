@@ -25,9 +25,15 @@ qjson (0.7.1-2) unstable; urgency=low
 qjson (0.7.1-1) unstable; urgency=low
 
   * New upstream release.
-  * Improved parser performances.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Thu, 03 Dec 2009 21:15:23 -0300
+
+qjson (0.6.3+svn1050695-1) unstable; urgency=low
+
+  * New upstream release.
+  * Improved parser performances.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Tue, 17 Nov 2009 19:47:52 -0300
 
 qjson (0.6.2-1) unstable; urgency=low
 
