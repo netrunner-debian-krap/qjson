@@ -1,4 +1,4 @@
-qjson (0.7.1-2) unstable; urgency=low
+qjson (0.7.1-2) UNRELEASED; urgency=low
 
   * Switched packaging to fornat 3.0 (quilt).
   * Added visibility flags to generate less noisier symbol files.
