@@ -1,4 +1,4 @@
-qjson (0.7.1-2) UNRELEASED; urgency=low
+qjson (0.7.1-2) unstable; urgency=low
 
   * Switched packaging to fornat 3.0 (quilt).
   * Added visibility flags to generate less noisier symbol files.
@@ -20,7 +20,7 @@ qjson (0.7.1-2) UNRELEASED; urgency=low
   * Create CMake's config files using changes introduced upstream. See
     install_cmake_config.patch for more info (Closes: #628981).
 
- -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Sun, 12 Jun 2011 16:16:06 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Mon, 13 Jun 2011 11:59:30 -0300
 
 qjson (0.7.1-1) unstable; urgency=low
 
