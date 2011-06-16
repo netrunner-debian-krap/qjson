@@ -7,4 +7,7 @@
 export CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
 
 %:
-	dh $@ --dbg-package=libqjson-dbg --with=pkgkde-symbolshelper --parallel
+	dh $@ --dbg-package=libqjson-dbg \
+	--with=pkgkde-symbolshelper \
+	--parallel \
+	--list-missing
