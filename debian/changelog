@@ -7,6 +7,7 @@ qjson (0.7.1-4) UNRELEASED; urgency=low
     - Modify debian/*.install files to support arch triplets.
     - Patch CMakeLists.txt to install stuff in ${CMAKE_LIBRARY_ARCHITECTURE},
       wich is the same as DEB_HOST_MULTIARCH. Also thanks Modestas.
+    - Add Pre-Depends: ${misc:Pre-Depends} to libqjson0.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Thu, 28 Jul 2011 13:08:55 -0300
 
