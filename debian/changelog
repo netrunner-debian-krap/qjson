@@ -5,6 +5,8 @@ qjson (0.7.1-4) UNRELEASED; urgency=low
     - B-D on cmake >= 2.8.5. Thanks Modestas Vainius for the tip.
     - Update debian/compat to 9.
     - Modify debian/*.install files to support arch triplets.
+    - Patch CMakeLists.txt to install stuff in ${CMAKE_LIBRARY_ARCHITECTURE},
+      wich is the same as DEB_HOST_MULTIARCH. Also thanks Modestas.
 
  -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Thu, 28 Jul 2011 13:08:55 -0300
 
