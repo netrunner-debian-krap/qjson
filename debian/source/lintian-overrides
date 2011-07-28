@@ -1,3 +1,5 @@
 # This is actually a transitional package,
 # tell lintian not to complain.
 qjson source: dbg-package-missing-depends libqjson0-dbg
+# To enable multiarch support we must use compat 9, wich is experimental.
+qjson source: package-needs-versioned-debhelper-build-depends 9
