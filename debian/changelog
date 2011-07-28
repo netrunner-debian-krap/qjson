@@ -1,4 +1,4 @@
-qjson (0.7.1-4) UNRELEASED; urgency=low
+qjson (0.7.1-4) experimental; urgency=low
 
   * Enable multiarch in the lib.
     - B-D on debhelper >= 8.1.3.
@@ -14,7 +14,7 @@ qjson (0.7.1-4) UNRELEASED; urgency=low
   * Do not install FindQJSON.cmake. CMake maintainer tells me this must have
     been for older versions of CMake.
 
- -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Thu, 28 Jul 2011 13:08:55 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Thu, 28 Jul 2011 17:38:49 -0300
 
 qjson (0.7.1-3) unstable; urgency=low
 
