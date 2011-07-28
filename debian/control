@@ -13,6 +13,7 @@ Package: libqjson0
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
 Description: qt-based library that maps JSON data to QVariant objects
  JSON (JavaScript Object Notation) is a lightweight data-interchange format.
  It can represents integer, real number, string, an ordered sequence of value,

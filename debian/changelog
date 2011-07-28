@@ -10,6 +10,7 @@ qjson (0.7.1-4) UNRELEASED; urgency=low
     - Add Pre-Depends: ${misc:Pre-Depends} to libqjson0.
     - Add a lintian override on debian/compat being 9, wich is still
       experimental.
+    - Mark libqjson0 Multi-Arch: same.
   * Do not install FindQJSON.cmake. CMake maintainer tells me this must have
     been for older versions of CMake.
 
