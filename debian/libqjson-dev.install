@@ -1,6 +1,5 @@
 usr/include/*
 usr/lib/*/libqjson.so
 usr/lib/*/pkgconfig/*
-usr/share/cmake-*/Modules/FindQJSON.cmake
 usr/lib/*/cmake/qjson/qjson-config-version.cmake
 usr/lib/*/cmake/qjson/qjson-config.cmake
