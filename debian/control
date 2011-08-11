@@ -14,12 +14,12 @@ Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: QT-based library that maps JSON data to QVariant objects
+Description: Qt-based library that maps JSON data to QVariant objects
  JSON (JavaScript Object Notation) is a lightweight data-interchange format.
  It can represent integers, real numbers, strings, an ordered sequence of
  values, and a collection of name/value pairs.
  .
- QJson is a QT-based library that maps JSON data to QVariant objects: JSON
+ QJson is a Qt-based library that maps JSON data to QVariant objects: JSON
  arrays will be mapped to QVariantList instances, while JSON objects will be
  mapped to QVariantMap.
 
@@ -27,12 +27,12 @@ Package: libqjson-dev
 Section: libdevel
 Architecture: any
 Depends: libqjson0 (= ${binary:Version}), ${misc:Depends}
-Description: QT-based library that maps JSON data to QVariant objects - development files
+Description: Qt-based library that maps JSON data to QVariant objects - development files
  JSON (JavaScript Object Notation) is a lightweight data-interchange format. 
  It can represent integers, real numbers, strings, an ordered sequence of
  values, and a collection of name/value pairs.
  .
- QJson is a QT-based library that maps JSON data to QVariant objects: JSON
+ QJson is a Qt-based library that maps JSON data to QVariant objects: JSON
  arrays will be mapped to QVariantList instances, while JSON objects will be 
  mapped to QVariantMap.
  .
@@ -45,10 +45,10 @@ Recommends: libqt4-dbg
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqjson0 (= ${binary:Version})
 Replaces: libqjson0-dbg (<< 0.7.1-1)
 Breaks: libqjson0-dbg (<< 0.7.1-1)
-Description: QT-based library that maps JSON data to QVariant objects, debug info
+Description: Qt-based library that maps JSON data to QVariant objects, debug info
  debug info for qt based library that maps JSON adta to QVariant objects.
  .
- QJson is a QT-based library that maps JSON data to QVariant objects: JSON
+ QJson is a Qt-based library that maps JSON data to QVariant objects: JSON
  arrays will be mapped to QVariantList instances, while JSON objects will be
  mapped to QVariantMap.
 
