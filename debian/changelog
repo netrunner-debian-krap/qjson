@@ -1,9 +1,9 @@
-qjson (0.7.1-5) UNRELEASED; urgency=low
+qjson (0.7.1-5) unstable; urgency=low
 
   * Fix typos and nouns capitalization in package's descriptions.
     Thanks Filipus Klutiero for checking (Closes: #637373).
 
- -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Wed, 10 Aug 2011 23:33:08 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>  Fri, 09 Sep 2011 18:04:49 -0300
 
 qjson (0.7.1-4) experimental; urgency=low
 
