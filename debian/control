@@ -1,6 +1,6 @@
 Source: qjson
 Priority: extra
-Maintainer: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+Maintainer: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8.1.3), cmake (>= 2.8.5), libqt4-dev,

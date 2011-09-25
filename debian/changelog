@@ -1,6 +1,7 @@
 qjson (0.7.1-6) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Change my e-mail address.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 25 Sep 2011 14:42:11 -0300
 
