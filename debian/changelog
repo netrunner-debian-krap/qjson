@@ -3,6 +3,8 @@ qjson (0.7.1-6) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Change my e-mail address.
   * Remove the DM-Upload-Allowed flag. It is no longer needed.
+  * Use DEB_CXXFLAGS_MAINT_APPEND instead of exporting CXXFLAGS. Thanks
+    Felix Geyer for the bug + solution (Closes: #647282).
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 25 Sep 2011 14:42:11 -0300
 

@@ -4,7 +4,8 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export CXXFLAGS += -fvisibility=hidden -fvisibility-inlines-hidden
+export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden \
+        -fvisibility-inlines-hidden
 
 %:
 	dh $@ --dbg-package=libqjson-dbg \
