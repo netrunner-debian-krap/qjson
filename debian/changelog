@@ -1,4 +1,4 @@
-qjson (0.7.1-6) UNRELEASED; urgency=low
+qjson (0.7.1-6) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Change my e-mail address.
@@ -6,7 +6,7 @@ qjson (0.7.1-6) UNRELEASED; urgency=low
   * Use DEB_CXXFLAGS_MAINT_APPEND instead of exporting CXXFLAGS. Thanks
     Felix Geyer for the bug + solution (Closes: #647282).
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 25 Sep 2011 14:42:11 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 07 Nov 2011 22:45:30 -0300
 
 qjson (0.7.1-5) unstable; urgency=low
 
