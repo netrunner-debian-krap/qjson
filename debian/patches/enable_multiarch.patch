@@ -8,16 +8,16 @@ Forwarded: not-needed
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -37,7 +37,7 @@
+@@ -37,7 +37,7 @@ SET( QT_DONT_USE_QTGUI TRUE )
  
  #add extra search paths for libraries and includes
  SET (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
 -SET (LIB_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Directory where lib will install")
 +SET (LIB_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}/${CMAKE_LIBRARY_ARCHITECTURE}" CACHE STRING "Directory where lib will install")
  SET (INCLUDE_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/include" CACHE PATH "The directory the headers are installed in")
- SET (CMAKE_MODULES_INSTALL_DIR "${CMAKE_ROOT}/Modules" CACHE PATH "The directory to install FindQJSON.cmake to")
+ SET (CMAKECONFIG_INSTALL_DIR "${LIB_INSTALL_DIR}/cmake/${CMAKE_PROJECT_NAME}" CACHE PATH "Directory where to install QJSONConfig.cmake")
  
-@@ -56,7 +56,7 @@
+@@ -56,7 +56,7 @@ IF (NOT WIN32)
                    ${CMAKE_CURRENT_BINARY_DIR}/QJson.pc
                    @ONLY)
    INSTALL (FILES ${CMAKE_CURRENT_BINARY_DIR}/QJson.pc
@@ -26,12 +26,3 @@ Forwarded: not-needed
  ENDIF (NOT WIN32)
  
  # Include the cmake file needed to use qt4
-@@ -89,7 +89,7 @@
-                @ONLY)
- INSTALL(FILES ${CMAKE_CURRENT_BINARY_DIR}/qjson-config.cmake
-               ${CMAKE_CURRENT_BINARY_DIR}/qjson-config-version.cmake
--        DESTINATION "lib/cmake/qjson")
-+        DESTINATION "lib/${CMAKE_LIBRARY_ARCHITECTURE}/cmake/qjson")
- 
- ADD_CUSTOM_TARGET(uninstall
-   "${CMAKE_COMMAND}" -P "${CMAKE_CURRENT_BINARY_DIR}/cmake_uninstall.cmake")
