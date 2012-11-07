@@ -1,5 +1,4 @@
 usr/include/*
 usr/lib/*/libqjson.so
 usr/lib/*/pkgconfig/*
-usr/lib/*/cmake/qjson/qjson-config-version.cmake
-usr/lib/*/cmake/qjson/qjson-config.cmake
+usr/lib/*/cmake/qjson/*

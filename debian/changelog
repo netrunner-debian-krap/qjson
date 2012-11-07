@@ -4,6 +4,7 @@ qjson (0.7.1-6r1) UNRELEASED; urgency=low
     - Remove now obsolete install_cmake_config.patch.
     - Refresh enable_multiarch.patch.
     - Refresh debian/series.
+    - Refresh libqjson-dev.install.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Nov 2012 17:42:29 -0300
 
