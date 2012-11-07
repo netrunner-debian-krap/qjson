@@ -1,3 +1,9 @@
+qjson (0.7.1-6r1) UNRELEASED; urgency=low
+
+  * Add fix_cmake_variables.patch by Ralf Jung (Closes: #687537).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Nov 2012 17:42:29 -0300
+
 qjson (0.7.1-6) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
