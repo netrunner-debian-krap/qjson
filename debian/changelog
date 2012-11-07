@@ -5,6 +5,7 @@ qjson (0.7.1-7) UNRELEASED; urgency=low
     - Refresh enable_multiarch.patch.
     - Refresh debian/series.
     - Refresh libqjson-dev.install.
+  * Fix versioned depends on debhelper.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 07 Nov 2012 17:42:29 -0300
 
