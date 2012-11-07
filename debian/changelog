@@ -1,4 +1,4 @@
-qjson (0.7.1-6r1) UNRELEASED; urgency=low
+qjson (0.7.1-7) UNRELEASED; urgency=low
 
   * Add fix_cmake_variables.patch by Ralf Jung (Closes: #687537).
     - Remove now obsolete install_cmake_config.patch.
