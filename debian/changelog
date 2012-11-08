@@ -9,6 +9,7 @@ qjson (0.7.1-7) unstable; urgency=low
     experimental.
     - Remove unused lintian override.
   * Update symbols files with symbols from the buildds.
+  * Update Standars-Version to 3.9.4. No changes needed.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 08 Nov 2012 08:46:09 -0300
 
