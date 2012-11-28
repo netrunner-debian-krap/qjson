@@ -1,4 +1,4 @@
-qjson (0.8.1-1) UNRELEASED; urgency=low
+qjson (0.8.1-1) experimental; urgency=low
 
   * New upstream release.
   * Remove fix_cmake_variables.patch, not necessary anymore.
@@ -6,7 +6,7 @@ qjson (0.8.1-1) UNRELEASED; urgency=low
   * Fix docs installation.
   * Refresh symbols file.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 Nov 2012 19:58:21 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 28 Nov 2012 09:41:44 -0300
 
 qjson (0.7.1-7) unstable; urgency=low
 
