@@ -4,6 +4,7 @@ qjson (0.8.1-1) UNRELEASED; urgency=low
   * Remove fix_cmake_variables.patch, not necessary anymore.
   * Refresh enable_multiarch.patch.
   * Fix docs installation.
+  * Refresh symbols file.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 Nov 2012 19:58:21 -0300
 
