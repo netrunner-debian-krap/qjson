@@ -1,3 +1,9 @@
+qjson (0.8.1-2) UNRELEASED; urgency=low
+
+
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 Nov 2012 13:38:25 -0300
+
 qjson (0.8.1-1) experimental; urgency=low
 
   * New upstream release.
