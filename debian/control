@@ -55,6 +55,6 @@ Package: libqjson0-dbg
 Section: oldlibs
 Architecture: all
 Depends: libqjson-dbg, ${misc:Depends}
-Description: trasitional dummy package for qjson's debugging symbols
+Description: transitional dummy package for qjson's debugging symbols
  This package is intended to provide a smooth transition to
  libqjson-dbg. It can be safely removed.

@@ -2,6 +2,7 @@ qjson (0.8.1-2) UNRELEASED; urgency=low
 
   * Enable tests. Thanks Pino for the pointer :)
   * Confirm symbols from other architectures.
+  * Fix typo in package description. Thanks Pascal De Vuyst (Closes: #712404).
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 Nov 2012 13:38:25 -0300
 
