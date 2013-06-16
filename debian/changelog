@@ -5,6 +5,7 @@ qjson (0.8.1-2) UNRELEASED; urgency=low
   * Fix typo in package description. Thanks Pascal De Vuyst (Closes: #712404).
   * Fix missing M-A qualification of the debug package.
   * Update amd64 symbols.
+  * Fail if we are not shipping some files.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 Nov 2012 13:38:25 -0300
 

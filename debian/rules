@@ -10,8 +10,10 @@ export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden \
 %:
 	dh $@ --dbg-package=libqjson-dbg \
 	--with=pkgkde-symbolshelper \
-	--parallel \
-	--list-missing
+	--parallel
 
 override_dh_auto_configure:
 	dh_auto_configure -- -DQJSON_BUILD_TESTS=ON
+
+override_dh_install:
+	dh_install --fail-missing
