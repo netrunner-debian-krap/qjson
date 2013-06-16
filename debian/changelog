@@ -6,6 +6,8 @@ qjson (0.8.1-2) UNRELEASED; urgency=low
   * Fix missing M-A qualification of the debug package.
   * Update amd64 symbols.
   * Fail if we are not shipping some files.
+  * Be sure to build against Qt4 by exporting QT_SELECT. Not really needed,
+    but doesn't hurts.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 29 Nov 2012 13:38:25 -0300
 

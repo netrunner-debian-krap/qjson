@@ -6,6 +6,7 @@
 
 export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden \
         -fvisibility-inlines-hidden
+export QT_SELECT := qt4
 
 %:
 	dh $@ --dbg-package=libqjson-dbg \
