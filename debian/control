@@ -1,5 +1,5 @@
 Source: qjson
-Priority: extra
+Priority: optional
 Maintainer: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>
 Build-Depends: dpkg (>= 1.16.1~), debhelper (>= 9), cmake (>= 2.8.5),
