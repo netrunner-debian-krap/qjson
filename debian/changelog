@@ -3,6 +3,7 @@ qjson (0.8.1-3) UNRELEASED; urgency=low
   * Switch priority to optional. A lot of packages with priority optional
     depend on qjson, so going against the Debian policy.
     Thanks Pino Toscano for pointing it out.
+  * Update symbols file with buildds' logs.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 19 Jul 2013 11:00:11 -0300
 
