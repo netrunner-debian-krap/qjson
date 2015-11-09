@@ -7,15 +7,19 @@ Author: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
 Forwarded: not-needed
 Last-Update: 2012-11-22
 
+---
+ CMakeLists.txt |    3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -42,8 +42,7 @@ ENDIF()
- INCLUDE( ${QT_USE_FILE} )
+@@ -73,8 +73,7 @@ ENDIF()
+ 
  
  #add extra search paths for libraries and includes
 -SET (LIB_SUFFIX "" CACHE STRING "Define suffix of directory name (32/64)" )
 -SET (LIB_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX}" CACHE STRING "Directory where lib will install")
 +SET (LIB_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/lib/${CMAKE_LIBRARY_ARCHITECTURE}" CACHE STRING "Directory where lib will install")
  SET (INCLUDE_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/include" CACHE PATH "The directory the headers are installed in")
- SET (CMAKECONFIG_INSTALL_DIR "${LIB_INSTALL_DIR}/cmake/${CMAKE_PROJECT_NAME}" CACHE PATH "Directory where to install QJSONConfig.cmake")
+ SET (CMAKECONFIG_INSTALL_DIR "${LIB_INSTALL_DIR}/cmake/${CMAKE_PROJECT_NAME}${QJSON_SUFFIX}" CACHE PATH "Directory where to install QJSONConfig.cmake")
  
