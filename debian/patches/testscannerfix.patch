@@ -1,0 +1,35 @@
+Description: Also use the fix of issue #63 on !WIN32
+ JsonScanner is not for export, but required while building the tests.
+ The fix already appeared in
+ https://github.com/flavio/qjson/commit/eb76d1d5dcebeeb26383cb5ae09e7ab90b6a0f6b
+ but it's also necessary in !WIN32 while building shared libraries.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Forwarded: https://github.com/flavio/qjson/issues/81
+
+---
+ src/CMakeLists.txt           |    2 +-
+ tests/scanner/CMakeLists.txt |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -26,7 +26,7 @@ INCLUDE_DIRECTORIES(.)
+ # Special hack to fix scanner test compilation on Windows
+ # JsonScanner class is not for export. So need to make static
+ # lib what can be compiled against scanner test.
+-if(WIN32 AND QJSON_BUILD_TESTS AND BUILD_SHARED_LIBS)
++if(QJSON_BUILD_TESTS AND BUILD_SHARED_LIBS)
+   add_library(qjson_scanner STATIC json_scanner.cpp)
+ endif()
+ 
+--- a/tests/scanner/CMakeLists.txt
++++ b/tests/scanner/CMakeLists.txt
+@@ -31,7 +31,7 @@ FOREACH(test ${UNIT_TESTS})
+     ${test}.cpp
+   )
+ 
+-  if(WIN32 AND BUILD_SHARED_LIBS)
++  if(BUILD_SHARED_LIBS)
+     set(QJSON_SCANNER qjson_scanner)
+   endif()
+ 
