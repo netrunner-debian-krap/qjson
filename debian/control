@@ -84,6 +84,9 @@ Section: libdevel
 Architecture: any
 Depends: libqjson0-qt5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt5 based library that maps JSON data to QVariant objects - development files
+ Please note that you should really try to port your code to Qt 5's own
+ implementation, part of qtbase5-dev.
+ .
  JSON (JavaScript Object Notation) is a lightweight data-interchange format.
  It can represent integers, real numbers, strings, an ordered sequence of
  values, and a collection of name/value pairs.
