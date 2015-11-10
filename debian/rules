@@ -4,17 +4,35 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden \
-        -fvisibility-inlines-hidden
-export QT_SELECT := qt4
+export DEB_CXXFLAGS_MAINT_APPEND = -fvisibility=hidden -fvisibility-inlines-hidden
 
 %:
-	dh $@ --dbg-package=libqjson-dbg \
-	--with=pkgkde-symbolshelper \
-	--parallel
+	dh $@ --with=pkgkde-symbolshelper --parallel
+
+override_dh_auto_clean:
+	dh_auto_clean
+	dh_auto_clean --builddirectory=build-qt5
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DQJSON_BUILD_TESTS=ON
+	dh_auto_configure -- -DQJSON_BUILD_TESTS=ON -DQT4_BUILD=ON
+	dh_auto_configure --builddirectory=build-qt5 -- -DQJSON_BUILD_TESTS=ON
+
+override_dh_auto_build:
+	dh_auto_build
+	dh_auto_build --builddirectory=build-qt5
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_auto_install --builddirectory=build-qt5
 
 override_dh_install:
 	dh_install --fail-missing
+	dh_install --builddirectory=build-qt5
+
+override_dh_strip:
+	dh_strip -p libqjson0 --dbg-package=libqjson-dbg
+	dh_strip --remaining-packages --dbg-package=libqjson-qt5-dbg
+
+override_dh_auto_test:
+	xvfb-run -a dh_auto_test
+	xvfb-run -a dh_auto_test --builddirectory=build-qt5

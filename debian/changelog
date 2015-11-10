@@ -7,6 +7,7 @@ qjson (0.8.1+git103-gee054a7-1) UNRELEASED; urgency=medium
     own implementation, but this might help in getting things ported
     faster.
     - Create compile_qt5_with_fpic.patch in order to use -fPIC with Qt5.
+    - Tweak debian/rules in order to allow both qt4 and qt5 builds.
   * Remove unnecesary .dirs files.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 09 Mar 2014 00:18:52 -0300
