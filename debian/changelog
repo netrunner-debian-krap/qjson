@@ -3,6 +3,7 @@ qjson (0.8.1+git103-gee054a7-1) UNRELEASED; urgency=medium
   * New upstream snapshot.
   * Refresh enable_multiarch.patch.
   * Add testscannerfix.patch, solving an issue while building the tests.
+  * Create compile_qt5_with_fpic.patch in order to use -fPIC with Qt5.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 09 Mar 2014 00:18:52 -0300
 

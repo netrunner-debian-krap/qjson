@@ -1,0 +1,38 @@
+Description: use -fPIC when building with Qt5 on Debian
+ Qt5 on Debian requires using -fPIC.
+Author: Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+
+---
+ src/CMakeLists.txt           |    4 ++++
+ tests/scanner/CMakeLists.txt |    2 ++
+ 2 files changed, 6 insertions(+)
+
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -28,11 +28,15 @@ INCLUDE_DIRECTORIES(.)
+ # lib what can be compiled against scanner test.
+ if(QJSON_BUILD_TESTS AND BUILD_SHARED_LIBS)
+   add_library(qjson_scanner STATIC json_scanner.cpp)
++  if(Qt5Core_FOUND)
++    set_target_properties( qjson_scanner PROPERTIES COMPILE_FLAGS "-fPIC")
++  endif()
+ endif()
+ 
+ add_library (qjson${QJSON_SUFFIX} ${qjson_SRCS} ${qjson_MOC_SRCS} ${qjson_HEADERS})
+ IF (Qt5Core_FOUND)
+   target_link_libraries( qjson${QJSON_SUFFIX} ${Qt5Core_LIBRARIES})
++  set_target_properties( qjson${QJSON_SUFFIX} PROPERTIES COMPILE_FLAGS "-fPIC")
+ ELSE()
+   target_link_libraries( qjson${QJSON_SUFFIX} ${QT_LIBRARIES})
+ ENDIF()
+--- a/tests/scanner/CMakeLists.txt
++++ b/tests/scanner/CMakeLists.txt
+@@ -25,6 +25,8 @@ FOREACH(test ${UNIT_TESTS})
+   MESSAGE(STATUS "Building ${test}")
+   IF (NOT Qt5Core_FOUND)
+     QT4_WRAP_CPP(MOC_SOURCE ${test}.cpp)
++  ELSEIF (NOT Qt5Core_FOUND)
++    set_target_properties( ${test} PROPERTIES COMPILE_FLAGS "-fPIC")
+   ENDIF()
+   ADD_EXECUTABLE(
+     ${test}

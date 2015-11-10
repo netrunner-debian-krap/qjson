@@ -1,1 +1,3 @@
+testscannerfix.patch
 enable_multiarch.patch
+compile_qt5_with_fpic.patch
